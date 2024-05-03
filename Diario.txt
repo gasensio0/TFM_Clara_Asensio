@@ -1,0 +1,20 @@
+24/04/2024
+He trabajado con dos notebooks que manejan dos archivos de datos.
+
+1) Notebook:prueba
+Recoge los datos Casos de COVID-19 del Centro europeo para la prevención y el control de enfermedades (ECDC):
+https://learn.microsoft.com/es-es/azure/open-datasets/dataset-ecdc-covid-cases?source=recommendations&tabs=azure-storage
+más en concreto del enlace:
+https://pandemicdatalake.blob.core.windows.net/public/curated/covid-19/ecdc_cases/latest/ecdc_cases.csv
+que descarga directamente el archivo ecdc_cases.csv.
+CON ESTE ARCHIVO SE OBTIENE INFORMACION DE LA EVOLUCIÓN DE CONTAGIOS Y MUERTES DURANTE EL AÑO 2020
+
+
+2) Notebook:Lectura_Escritura_DataStore
+Recoge los datos del Lago de datos covid:
+https://learn.microsoft.com/es-es/azure/open-datasets/dataset-covid-19-data-lake
+más en concreto del enlace:
+https://pandemicdatalake.blob.core.windows.net/public/curated/covid-19/covid_policy_tracker/latest/covid_policy_tracker.csv
+que descarga directamente el archivo covid_policy_tracker.csv
+CON ESTE ARCHIVO SE OBTIENE EL CONJUNTO DE DATOS DE SEGUIMIENTO DE LA RESPUESTA GUBERNAMENTAL A LA COVID-19 DE OXFORD (OXCGRT) 
+CONTIENE INFORMACIÓN SISTEMÁTICA SOBRE QUÉ GOBIERNOS HAN TOMADO QUÉ MEDIDAS Y CUÁNDO.
